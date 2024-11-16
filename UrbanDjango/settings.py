@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'UrbanDjango',
+    'task2.apps.Task2Config',
+    'task3.apps.Task3Config',
+    'task4.apps.Task4Config',
 
 ]
 
@@ -56,7 +59,9 @@ ROOT_URLCONF = 'UrbanDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates/second_task', BASE_DIR / 'templates/third_task'],
+        'DIRS': [BASE_DIR / 'templates/second_task',
+                 BASE_DIR / 'templates/third_task',
+                 BASE_DIR / 'templates/fourth_task'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
