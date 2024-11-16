@@ -38,9 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'UrbanDjango',
-    'task2.apps.Task4Config',
-    'task3.apps.Task4Config',
-    'task4.apps.Task4Config',
 
 ]
 
